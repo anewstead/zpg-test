@@ -1,0 +1,38 @@
+.d980{
+  border: solid 4px rgba(106, 20, 142, 0.9);
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 610px;
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 980px) {
+  .d980{
+    display:block;background-color: rgba(106, 20, 142, 0.5);
+  }
+}
+
+@media only screen and (min-width: 1200px)  {
+  .wrapper{
+    max-width: 1200px;
+  }
+  .articles{
+    padding-right: 39px;
+    width: 550px;
+    float: left;
+    border-right: solid 1px black;
+
+  }
+  .accordian{
+    padding-left: 39px;
+    width: 550px;
+    float: left;
+  }
+  .page-content::after{
+    content:'';
+    display: block;
+    clear: both;
+  }
+}

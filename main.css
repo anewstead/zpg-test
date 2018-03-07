@@ -1,0 +1,128 @@
+.d980,.d1200{
+  display:none;
+}
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+.wrapper {
+  position: relative;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  border: solid 4px rgba(106, 20, 142, 0.2);
+  border-radius: 25px;
+}
+
+header{
+  padding-top: 65px;
+  background: url('./800px-Zoopla.jpg');
+  background-position: center -5px;
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+}
+header h1{
+  display: none;
+}
+.mainnav,
+.subnav,
+.footnav{
+  text-align: center;
+}
+nav a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 5px;
+
+}
+nav a:hover{
+  background-color: rgba(106, 20, 142, 0.8);
+}
+
+.mainnav ul,
+.subnav ul,
+.footnav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.mainnav li,
+.subnav li,
+.footnav li{
+  float: left;
+  padding: 5px;
+}
+.mainnav::after,
+.subnav::after,
+.footnav::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+.mainnav{
+  background-color: rgba(106, 20, 142, 0.8);
+}
+.subnav{
+  background-color: rgba(106, 20, 142, 0.5);
+}
+.footnav{
+  background-color:rgba(106, 20, 142, 0.7);
+}
+footer{
+  margin-bottom: 25px;
+}
+
+
+.page-content{
+  padding: 10px;
+}
+
+.accordian section{
+  background-color: rgba(106, 20, 142, 0.1);
+  margin-bottom: 2px;
+  position: relative;
+}
+.accordian-header{
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(106, 20, 142, 0.1);
+}
+.btn{
+  cursor: pointer;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.accordian-header h3{
+  margin: 0;
+  padding: 0;
+}
+
+.accordian-content{
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  /*max-height: 0;*/
+  height: 0;
+  overflow: hidden;
+  transition: max-height 1.5s ease-in-out;
+}
+
+.open{
+  /*max-height: 500px;*/
+  height: auto;
+}
+.accordian-remove{
+  font-weight: bold;
+  font-size: 12px;
+  border: solid 1px red;
+  color: red;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
