@@ -1,3 +1,3 @@
 # anewstead.content
 
-[zpg-test.doodlecube.co.uk](https://zpg-test.doodlecube.co.uk)
+[https://anewstead-zpg-test.netlify.app/](https://anewstead-zpg-test.netlify.app/)
